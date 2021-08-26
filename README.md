@@ -80,7 +80,7 @@ The DAG can be configured by giving it some default_args which specify the `star
 
 ```python
 default_args = {
-    'owner': 'shravan',
+    'owner': 'paul_dada',
     'start_date': datetime(2018, 11, 1),
     'end_date': datetime(2018, 11, 30),
     'depends_on_past': False,
@@ -102,8 +102,6 @@ Run the notebook to create AWS Redshift Cluster. Make a note of:
 ***Step 2: Start Apache Airflow***
 
 Run `docker-compose up` from the directory containing `docker-compose.yml`. Ensure that you have mapped the volume to point to the location where you have your DAGs.
-
-> **NOTE: You can find details of how to manage Apache Airflow on mac here:** https://gist.github.com/shravan-kuchkula/a3f357ff34cf5e3b862f3132fb599cf3
 
 ![start_airflow](images/start_airflow.png)
 
