@@ -6,7 +6,7 @@ from airflow.operators import PostgresOperator
 from helpers.create_tables import create_all_tables
 
 default_args = {
-    'owner': 'shravan',
+    'owner': 'paul_dada',
     'start_date': datetime.utcnow() - timedelta(hours=5),
     'depends_on_past': False,
     'email_on_retry': False,

@@ -31,7 +31,7 @@ from helpers.data_quality_checks import DataQualityChecks
 #   along the Airflow context variables to be used inside the operator.
 #
 default_args = {
-    'owner': 'shravan',
+    'owner': 'paul_dada',
     'start_date': datetime(2018, 11, 1),
     'end_date': datetime(2018, 11, 30),
     'depends_on_past': False,
